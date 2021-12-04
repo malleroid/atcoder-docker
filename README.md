@@ -27,6 +27,8 @@ $ ./login.sh
 ```
 $ ./create_contest.sh ${directory path} ${contest name}
 ```
+![create_contest](https://user-images.githubusercontent.com/38337195/144705345-41168b8a-6236-4dec-bb59-0181fa224f6a.gif)
+
 
 2. Execute `test.sh` with directory path, contest name and problem id as args.
 ```
