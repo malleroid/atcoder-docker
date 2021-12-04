@@ -1,0 +1,23 @@
+{
+  "name": "atcoder",
+  "context": "..",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/usr/local/bin/pylint"
+  },
+  "postCreateCommand": "pip3 install -r requirements.txt && apt install -y gdb",
+  "extensions": [
+    "ms-python.python",
+    "coenraads.bracket-pair-colorizer-2",
+    "sanaajani.taskrunnercode",
+    "vscode-icons-team.vscode-icons",
+    "eamodio.gitlens",
+    "ms-vscode.cpptools",
+    "austin.code-gnu-global",
+    "ms-python.vscode-pylance"
+  ],
+}
