@@ -8,6 +8,8 @@ Clone this repository.
 $ git clone https://github.com/malleroid/atcoder_docker_vscode.git
 ```
 
+Build Docker container.
+
 Rerwite AtCoder account information in `login.sh` .
 
 `login.sh`
