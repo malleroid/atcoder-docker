@@ -1,0 +1,7 @@
+services:
+  python:
+    build:
+      context: ./docker/python
+      dockerfile: Dockerfile
+    container_name: python
+    command: tail -f /dev/null
