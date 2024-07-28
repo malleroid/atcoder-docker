@@ -16,3 +16,12 @@ services:
     command: tail -f /dev/null
     profiles:
       - python
+
+  ruby:
+    build:
+      context: ./docker/ruby
+      dockerfile: Dockerfile
+    container_name: ruby
+    command: tail -f /dev/null
+    profiles:
+      - ruby
