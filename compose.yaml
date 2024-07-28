@@ -1,4 +1,13 @@
 services:
+  cpp:
+    build:
+      context: ./docker/cpp
+      dockerfile: Dockerfile
+    container_name: cpp
+    command: tail -f /dev/null
+    profiles:
+      - cpp
+
   pypy:
     build:
       context: ./docker/pypy
