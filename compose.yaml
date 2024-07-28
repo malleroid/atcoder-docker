@@ -25,3 +25,12 @@ services:
     command: tail -f /dev/null
     profiles:
       - ruby
+
+  rust:
+    build:
+      context: ./docker/rust
+      dockerfile: Dockerfile
+    container_name: rust
+    command: tail -f /dev/null
+    profiles:
+      - rust
