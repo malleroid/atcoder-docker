@@ -1,7 +1,18 @@
 services:
+  pypy:
+    build:
+      context: ./docker/pypy
+      dockerfile: Dockerfile
+    container_name: pypy
+    command: tail -f /dev/null
+    profiles:
+      - pypy
+
   python:
     build:
       context: ./docker/python
       dockerfile: Dockerfile
     container_name: python
     command: tail -f /dev/null
+    profiles:
+      - python
