@@ -1,0 +1,16 @@
+# Version control
+.git
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
