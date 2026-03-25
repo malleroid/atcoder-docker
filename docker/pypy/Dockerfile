@@ -1,4 +1,4 @@
-FROM pypy:3.10-7.3.12-slim-bullseye
+FROM pypy:3.10-7.3.12-slim-bullseye@sha256:a7ae21dd4e30d23786bb07e53816a9d62cb0bce60da34de421e65c58f73782e7
 
 RUN apt update && apt upgrade -y && apt install -y curl \
   cmake \

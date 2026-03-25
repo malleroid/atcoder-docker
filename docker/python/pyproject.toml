@@ -28,7 +28,7 @@ polars = "0.15.15"
 lightgbm = "3.3.1"
 numba = "0.57.0"
 scikit-learn = "1.2.0"
-touch = "^2020.12.3" # atcoder installed version is 1.13.1
+touch = "2020.12.3" # atcoder installed version is 1.13.1
 gmpy2 = "2.1.5"
 ac-library-python = { git = "https://github.com/not522/ac-library-python", branch = "master" }
 

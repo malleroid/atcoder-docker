@@ -1,4 +1,4 @@
-FROM gcc:12.2-bullseye
+FROM gcc:12.2-bullseye@sha256:a3e091325c0af43bc9c1c576ddd155351d5b16438124421188bb4b4fcacc1452
 
 RUN apt update && apt upgrade -y && apt install -y \
   libboost-all-dev \
