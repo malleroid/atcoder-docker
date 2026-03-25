@@ -1,4 +1,4 @@
-FROM rust:1.70.0-slim-bullseye
+FROM rust:1.70.0-slim-bullseye@sha256:d1f62de1372e7103b9973848c3f873abfb73a6668ce4b0af2fe57fd9e32178b8
 
 RUN apt update && apt upgrade -y && apt install -y curl
 
