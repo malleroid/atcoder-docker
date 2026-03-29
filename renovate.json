@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", ":semanticCommits"],
+  "assignees": ["malleroid"],
   "labels": ["dependencies"],
   "timezone": "Asia/Tokyo",
   "vulnerabilityAlerts": {
