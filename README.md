@@ -1,11 +1,24 @@
-# atcoder_docker_vscode
+# atcoder-devcontainer-legacy
+
+> **This repository is archived.** See the successor projects below.
+
+Docker + VSCode Dev Container environment for AtCoder competitive programming (Python).
+
+For details, see the [Qiita article](https://qiita.com/malleroid/items/ab83b5ffb8ddfd58a4d3).
+
+## Successor Projects
+
+| Repository | Description |
+|---|---|
+| [online-judge-docker](https://github.com/malleroid/online-judge-docker) | Docker images that reproduce online judge environments (AtCoder, etc.) for all languages |
+| [online-judge-toolchain](https://github.com/malleroid/online-judge-toolchain) | CLI tool for downloading problems, testing, and submitting solutions across multiple judges |
 
 ## Getting Started
 
 Clone this repository.
 
 ```
-$ git clone https://github.com/malleroid/atcoder_docker_vscode.git
+$ git clone https://github.com/malleroid/atcoder-devcontainer-legacy.git
 ```
 
 Build Docker container.
